@@ -1,0 +1,47 @@
+{
+  "name": "CogitoAI",
+  "private": true,
+  "version": "0.0.0",
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "tsc && vite build",
+    "preview": "vite preview",
+    "tauri": "tauri"
+  },
+  "dependencies": {
+    "@ant-design/icons": "^5.2.6",
+    "@paddlejs-models/facedetect": "^1.0.3",
+    "@paddlejs-models/gesture": "^1.1.1",
+    "@paddlejs-models/humanseg": "^1.2.3",
+    "@paddlejs-models/mobilenet": "^1.1.1",
+    "@paddlejs-models/ocr": "^1.2.3",
+    "@paddlejs-models/ocrdet": "^1.1.1",
+    "@paddlejs/paddlejs-backend-webgl": "^1.2.9",
+    "@paddlejs/paddlejs-core": "^2.2.0",
+    "@tauri-apps/api": "^1.4.0",
+    "antd": "^5.9.1",
+    "localforage": "^1.10.0",
+    "lodash": "^4.17.21",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0",
+    "react-router-dom": "^6.16.0",
+    "rxjs": "^7.8.1",
+    "styled-components": "^6.0.8",
+    "zustand": "^4.4.1"
+  },
+  "devDependencies": {
+    "@tauri-apps/cli": "^1.4.0",
+    "@types/lodash": "^4.14.198",
+    "@types/node": "^20.6.2",
+    "@types/react": "^18.2.15",
+    "@types/react-dom": "^18.2.7",
+    "@types/styled-components": "^5.1.27",
+    "@vitejs/plugin-react": "^4.0.3",
+    "autoprefixer": "^10.4.15",
+    "postcss": "^8.4.29",
+    "tailwindcss": "^3.3.3",
+    "typescript": "^5.0.2",
+    "vite": "^4.4.4"
+  }
+}
